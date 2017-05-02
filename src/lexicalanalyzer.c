@@ -13,6 +13,7 @@ typedef enum {
 	IN_FRAC_PART_STATUS
 }LexerStatus;
 
+/*this function will return the token when every time called */
 void 
 get_token(Token * token)
 {
